@@ -1,0 +1,109 @@
+/*
+CSS file created with:
+Instant Blueprint - Create a web project framework in seconds.
+ http://instantblueprint.com
+
+Project: dexpense
+File: css/style.css
+Last edited: April 17, 2010, 8:59 am
+*/
+
+/*  Main  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 13px;
+  color: #36393D;
+}
+
+a {
+  color: #1985B5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul, ol {
+  margin: 0 0 18px 18px;
+}
+
+#wrapper {
+  margin:0 auto;
+  width:900px; /*  Change to desired width :)  */
+}
+
+#header, #footer {
+  font-size: 11px;
+}
+
+#header {
+  height: 135px;
+  border-bottom: 4px solid #36393D;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding: 13px 0 0;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+#header a {
+  color: #36393D;
+  text-decoration: none;
+}
+
+#footer {
+  margin-top: 20px;
+  border-top: 5px solid #36393D;
+}
+
+#footer * {
+  text-align: center;
+}
+
+.columns {
+  margin: 0 auto 0;
+  overflow: hidden;
+  padding: 0px 25px;
+  width: 920px;
+}
+
+.column {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  width: 635px;
+  margin-right: 35px;
+}
+
+#sidebar {
+  width: 250px;
+  float: right;
+}
+
+.menu {
+  clear: both;
+  float: left;
+  margin:0 75px;
+  margin-top: 25px;
+  width: 860px;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 25px 0 0;
+  list-style: none;
+  font-size: 28px;
+}
+
+.menu li.active-menu-item {
+  font-weight: bold;
+  color: black;
+}
